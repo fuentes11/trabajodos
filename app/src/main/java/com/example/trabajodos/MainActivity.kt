@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
                 }
                 binding.total.apply {
-                    text="$ " +total.toString()
+                    text="Total:"+" $ " +total.toString()
                 }
                 //Toast.makeText(applicationContext, total.toString(),Toast.LENGTH_SHORT).show()
                 }
