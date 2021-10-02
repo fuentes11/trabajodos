@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+
+        <LinearLayout
+            android:id="@+id/ala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="50dp"
+                android:layout_height="52dp"
+                android:background="#C3F761"
+                android:gravity="center"
+                android:textStyle="bold"
+                tools:text="X" />
+
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="50dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="252dp"
+                android:layout_marginTop="-53dp"
+                android:gravity="center"
+                tools:text="$" />
+
+            <TextView
+                android:id="@+id/tv_color"
+                android:layout_width="50dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="-53dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                tools:text="" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="46dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-53dp"
+                android:gravity="center"
+                android:text="X"
+                app:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
